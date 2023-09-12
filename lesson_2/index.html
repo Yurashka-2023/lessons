@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 2 - Homework from lesson № 2</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<mark class="header__first">
+				<h1 class="header__name">Домашня робота з 2-го УРОКУ - Homework from № 2-nd LESSON</h1>
+			</mark>
+			<div class="header__second">
+				<mark class="header__introduction">
+					<h3 class="header__introduction-name">Вступ</h3>
+				</mark>
+				<ol class="menu">
+					<li class="menu__list"><a href="#menu__first-part">Конспект лекції.</a></li>
+					<ul class="menu">
+						<li class="menu__list"><a href="#menu__one" class="menu__link">Cинтаксис HTML</a></li>
+						<li class="menu__list"><a href="#menu__two" class="menu__link">Теги для будівництва - будівельні</a>
+						</li>
+						<li class="menu__list"><a href="#menu__three" class="menu__link">Теги для контенту - контентні</a>
+						</li>
+						<li class="menu__list"><a href="#menu__four" class="menu__link">Блочні теги</a></li>
+						<li class="menu__list"><a href="#menu__five" class="menu__link">Рядкові теги</a></li>
+						<li class="menu__list"><a href="#menu__six" class="menu__link">Блочно-рядкові теги</a></li>
+					</ul>
+					<li class="menu__list"><a href="#menu__second-part">Про IT школу "Фрілансер по життю"</a></li>
+				</ol>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="main__header">
+				<div class="main__introduction">
+					<div class="main__introduction-title">
+						<h2 class="introduction__title-name"><mark class="title-name">Вступ</mark></h2>
+					</div>
+					<div class="main__introduction-text">
+						<p class="introduction-text">
+							На цій сторінці занотовано інформацію другої лекції курсу. Практикуючись, сподіваюся запам'ятати
+							"фундамент", опорні знання,
+							без розуміння яких неможливо далі вчитися. Сервіс перевірки верстки - <mark
+								class="introduction-text"><a title="Перейти на сайт" target="_blank"
+									class="introduction-text__link" href="https://validator.w3.org/">валідатор</a></mark> - курта
+							штука, знайшла помилки, виправила, рекомендасьон! Всім сокурсникам передаю вітання та бажаю легкого
+							навчання. Менторам терпіння.
+						</p>
+					</div>
+					<div class="main__introduction-photo">
+						<div class="introduction-photo__text-photo">
+							<p class="text-photo">Доречі чашка дуже крута! Гарна ідея! Хочу собі таку ж!</p>
+							<img src="img/cup.jpg" width="400" class="introduction-photo">
+						</div>
+					</div>
+				</div>
+				<div class="main__body">
+					<div class="main__part-title">
+						<h2 class="main__part-name" id="menu__first-part">Конспект лекції
+						</h2>
+					</div>
+					<div class="main__section">
+						<div class="main__section-first">
+							<h3 class="section__name" id="menu__one"><mark class="title-name">Cинтаксис HTML:</mark> все що
+								відкрито, має бути закритим!</h3>
+						</div>
+						<div class="main__section-text">
+							<div class="section-text">
+								<p class="text">Будова (анатомія) HTML-тегу</p>
+								<ol class="main__list">
+									<li class="list__item">Тег з зачиняючим елементом: <назва_тегу>Наповнення тегу (інші теги,
+											контент)</назва_тегу>
+									</li>
+									<li class="list__item">Тег без зачиняючого елементу: <назва_тегу>
+									</li>
+									<li class="list__item">Тег з атрибутами (атрибутів може бути скільки завгодно):
+									</li>
+									<ul class="main__list">
+										<li class="list__item">
+											<назва_тегу назва_атрибуту="значення_атрибуту" назва_атрибуту_2="значення_атрибуту_2">
+												Наповнення атрибуту (інші теги, контент)
+											</назва_тегу>
+										</li>
+										<li class="list__item">
+											<назва_тегу назва_атрибуту="значення_атрибуту">
+										</li>
+									</ul>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="main__section-second">
+							<h3 class="section__name" id="menu__two">
+								<mark class="title-name">
+									Теги для будівництва - будівельні
+								</mark>
+							</h3>
+						</div>
+						<div class="main__section-second">
+							<div class="section-second">
+								<p class="section-second__title">асоціація з цими тегами виглядає так:
+								</p>
+								<img src="img/house.jpg" alt="house" class="section-second__photo" width="400">
+								<ol class="section-second__list second__list">
+									<li class="second__list"><mark class="title-name">DIV</mark> - будівельний тег БЕЗ
+										конкретного призначення (з зачиняючим
+										елементом)</li>
+									<li class="second__list"><mark class="title-name">HEADER</mark> - будівельний тег для
+										побудови верхньої частини сайту/блоку
+										(з зачиняючим елементом)</li>
+									<li class="second__list"><mark class="title-name">MAIN</mark> - будівельний тег для побудови
+										головної частини сайту/блоку
+										(має бути лише один на сторінці) (з зачиняючим елементом)</li>
+									<li class="second__list"><mark class="title-name">FOOTER</mark> - будівельний тег для
+										побудови нижньої частини сайту/блоку (з
+										зачиняючим елементом)</li>
+								</ol>
+								<div class="section-second__bottom-text">
+									<p class="bottom-text">Будівельні теги ніяк не змінюють контент
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="main__section">
+						<div class="main__section-third">
+							<h3 class="section__name" id="menu__three">
+								<mark class="title-name">
+									Теги для контенту - контентні
+								</mark>
+							</h3>
+						</div>
+						<div class="main__section-third">
+							<div class="section-third">
+								<p class="section-third__title">Контентні теги можуть змінювати контент:
+								</p>
+								<ol class="section-third__list third__list">
+									<li class="third__list"><mark class="title-name">h1-h6</mark> - Теги для заголовків (з
+										зачиняючим елементом)</li>
+									<ul class="third__list-item">
+										<li class="list-item">H1 - лише один на сторінці бо він головний</li>
+										<li class="list-item">H2-H6 - можуть повторюватися</li>
+									</ul>
+									<li class="third__list"><mark class="title-name">P</mark> - тег параграфу (з зачиняючим
+										елементом)</li>
+									<li class="third__list"><mark class="title-name">MARK</mark> та <mark
+											class="title-name">SPAN</mark> - виділення слова(ів) (з зачиняючим елементом)</li>
+									<li class="third__list"><mark class="title-name">BR</mark> - перериває рядок тексту (без
+										зачиняючого елементу)</li>
+									<li class="third__list"><mark class="title-name">UL+LI</mark> - Маркований список (з
+										зачиняючим елементом)</li>
+									<li class="third__list"><mark class="title-name">OL+LI</mark> - Нумерований список (з
+										зачиняючим елементом)</li>
+									<li class="third__list"><mark class="title-name">IMG</mark> - вивід зображення (без
+										зачиняючого елементу)</li>
+									<h4 class="title-name__text">АТРИБУТИ</h4>
+									<ul class="third__list-item">
+										<li class="list-item">src - шлях до зображення (файлу)</li>
+										<li class="list-item">alt - альтернативний текст</li>
+									</ul>
+									<li class="third__list"><mark class="title-name">A</mark> - гіпертекстове посилання (з
+										зачиняючим елементом)</li>
+									<h4 class="title-name__text">АТРИБУТИ</h4>
+									<ul class="third__list-item">
+										<li class="list-item">href="адреса" - URL що має відкритися</li>
+										<li class="list-item">target="_blank" - встановлює відкриття сторінки в новій вкладці</li>
+										<li class="list-item">CLASS - додає клас(класи), пишемо латиницею, у нижньому регістрі,
+											пробіл змінюємо на дефіс</li>
+										<li class="list-item">TITLE - підказка, що відображається при наведенні на посилання</li>
+										<li class="list-item">ID - унікальний ідентифікатор</li>
+									</ul>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__section">
+					<div class="main__section-fourth">
+						<h3 class="section__name" id="menu__four"><mark class="title-name">Блочні теги</mark></h3>
+					</div>
+					<div class="main__section-fourth">
+						<p class="section-fourth__text">Це усі будівельні теги (div, header, main, footer та інші)
+						<p class="section-fourth__text">
+							Контентні (h1-h6, p, ul, ol, li)
+						</p>
+						<p class="section-fourth__text">
+							Ширина блочного тегу завжди займає всю ширину батьківського елементу
+						</p>
+						<p class="section-fourth__text">
+							Висота формується контентом всередені</p>
+						<p class="section-fourth__text">
+							Блочний тег завжди починається з нового рядка</p>
+					</div>
+				</div>
+				<div class="main__section">
+					<div class="main__section-fifth">
+						<h3 class="section__name" id="menu__five"><mark class="title-name">Рядкові теги</mark></h3>
+					</div>
+					<div class="main__section-fifth">
+						<p class="section-fifth__text">&lt;span>&lt;/span>, &lt;mark>&lt;/mark>, &lt;a>&lt;/a>, &lt;br></p>
+						<p class="section-fifth__text">
+							Ширина рядкового тегу займає ширину по ширині контенту всередені
+						</p>
+						<p class="section-fifth__text">
+							Висота формується контентом всередені
+						</p>
+						<p class="section-fifth__text">
+							Рядковий тег намагається розміститись в рядок разом з іншими рядковими тегами або текстом
+						</p>
+					</div>
+				</div>
+				<div class="main__section">
+					<div class="main__section-sixth">
+						<h3 class="section__name" id="menu__six"><mark class="title-name">Блочно-рядкові теги</mark></h3>
+					</div>
+					<div class="main__section-fifth">
+						<p class="section-fifth__text">&lt;img></p>
+						<p class="section-fifth__text">
+							Ширина блочно-рядкового тегу займає ширину по ширині контенту всередені
+						</p>
+						<p class="section-fifth__text">
+							Висота формується контентом всередені
+						</p>
+						<p class="section-fifth__text">
+							Блочно-рядковий тег намагається розміститись в рядок разом з іншими рядковими тегами або тексто
+						</p>
+					</div>
+				</div>
+				<div class="main__part-footer">
+					<h2 class="main__part" id="menu__second-part">Про IT школу "Фрілансер по життю"</h2>
+					<div class="part__top">
+						<h5 class="part__title">
+							Для кого цей курс?
+						</h5>
+						<p class="part__text">Ви новачок і маєте велике бажання потрапити в IT та навчитись створювати сайти?
+							Ви веб-дизайнер та бажаєте розуміти усі процеси етапу верстки? Ви бекенд розробник та бажаєте
+							вивчити верстку для просування власної кар'єри? Тоді цей курс для вас!</p>
+					</div>
+					<div class="part__bottom">
+						<h5 class="part__title">
+							В чому відмінність від безкоштовного курсу на каналі?
+						</h5>
+						<p class="part__text">Основна відмінність - це зворотний зв'язок, ком'юніті та проведення курсу під
+							конкретну групу людей. Ви не навчаєтесь наодинці, а знаходитесь в оточенні таких же як ви хлопців
+							та дівчат. Разом розвиваєтесь допомагаючи один одному. Звісно у вас буде підтримка менторів та Жені
+							Андріканича. Варто додати, що на платному курсі набагато більше практики та нових ідей.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</main>
+</body>
+
+</html>

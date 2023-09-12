@@ -10,13 +10,13 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<mark class="header__first">
+			<div class="header__first">
 				<h1 class="header__name">Домашня робота з 2-го УРОКУ - Homework from № 2-nd LESSON</h1>
-			</mark>
+			</div>
 			<div class="header__second">
-				<mark class="header__introduction">
+				<div class="header__introduction">
 					<h3 class="header__introduction-name">Вступ</h3>
-				</mark>
+				</div>
 				<ol class="menu">
 					<li class="menu__list"><a href="#menu__first-part">Конспект лекції.</a></li>
 					<ul class="menu">
@@ -55,7 +55,7 @@
 					<div class="main__introduction-photo">
 						<div class="introduction-photo__text-photo">
 							<p class="text-photo">Доречі чашка дуже крута! Гарна ідея! Хочу собі таку ж!</p>
-							<img src="img/cup.jpg" width="400" class="introduction-photo">
+							<img src="img/cup.jpg" width="400" class="introduction-photo" alt="photo">
 						</div>
 					</div>
 				</div>
@@ -73,8 +73,8 @@
 							<div class="section-text">
 								<p class="text">Будова (анатомія) HTML-тегу</p>
 								<ol class="main__list">
-									<li class="list__item">Тег з зачиняючим елементом: <назва_тегу>Наповнення тегу (інші теги,
-											контент)</назва_тегу>
+									<li class="list__item">Тег з зачиняючим елементом: &lt;назва_тегу>Наповнення тегу (інші теги,
+										контент) &lt;/назва_тегу>
 									</li>
 									<li class="list__item">Тег без зачиняючого елементу: <назва_тегу>
 									</li>
@@ -82,9 +82,10 @@
 									</li>
 									<ul class="main__list">
 										<li class="list__item">
-											<назва_тегу назва_атрибуту="значення_атрибуту" назва_атрибуту_2="значення_атрибуту_2">
-												Наповнення атрибуту (інші теги, контент)
-											</назва_тегу>
+											&lt;назва_тегу назва_атрибуту="значення_атрибуту"
+											назва_атрибуту_2="значення_атрибуту_2">
+											Наповнення атрибуту (інші теги, контент)
+											&lt;/назва_тегу>
 										</li>
 										<li class="list__item">
 											<назва_тегу назва_атрибуту="значення_атрибуту">
@@ -255,7 +256,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</main>
 </body>

@@ -68,7 +68,7 @@ div.sm-text{
 }
 /* Селектори атрибутів */
 [class*="__container"] {
-	color: blue;
+	color: rgb(8, 8, 184);
 	font-size: 17px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

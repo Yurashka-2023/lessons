@@ -55,7 +55,7 @@ div.sm-text{
 /* Усі теги A але тільки в середені об'єктів з класом lesson
 	рівень вкладеності значення немає
  */
-.footer__fact spam{
+.footer__fact span{
 	color: rgb(0, 17, 254);
 	font-size: 30px;
 

@@ -1,74 +1,189 @@
-@import url("reset.css");
+/* @import url("reset.css"); */
+/* Типи селекторів */
+
+/* Тип №0. Селектор зірочка *
+Шукаємо (робимо запит), звертаємось 
+	до ВСІХ об'єктів на сторінці */
+
+/* * { */
+/* тип цього селектора використовувався у reset-файлі */
+/* } */
+
+
+/* Тип №1. Селектор тегу */
+/* Шукаємо (робимо запит), звертаємось по назві тегу */
+
+/* Приклад */
+/* Звертаємось/описуємо (шукаємо, робимо запит) до УСІХ 
+	тегів P на сторінці 
+*/
+
+span {
+	color: rgb(255, 0, 0);
+	background: rgb(73, 145, 0);
+}
+
+.header {
+}
+.header__container {
+}
+.header__wrapper {
+}
+.wrapper-header {
+}
+.wrapper-header__title {
+}
 
 
 /* Тип №2. Селектор класу */
-.header__title {
-	color:rgba(30, 4, 180, 0.712);
-}
+/* Шукаємо, звертаємось (робимо запит) по назві класу */
+/* спочатку КРАПКА потім ім'я класу */
 
-/* Тип №1. Селектор тегу */
-p{
-	color:brown;
-
-}
-.list {
-	color:rgba(0, 213, 255, 0.712);
-}
-#introduction-st,
-#description-st{
-		color:rgb(0, 255, 42);
-}	
-
-.main__description ~ p{
-	color:rgb(16, 24, 16);
-	font-size: 15px;
-}
-/* Усі об'єкти з класом blue-text в середені 
-	об'єктів з класом lesson.
-	Рівень вкладеності значення немає
+/* Приклад */
+/* Звертаємось/описуємо 
+	(шукаємо, робимо запит) до УСІХ 
+	тегів з класом lesson на сторінці 
 */
-.title .red{
-	color:red;
-	font-size: 100px;
+.section-first__title {
+	color: rgb(90, 0, 174);
+	background: crimson;
+
 }
+
+/* Тип №3. Селектор ID */
+/* Шукаємо (робимо запит по назві ID) */
+/* спочатку # потім значення ID */
+
+/* Звертаємось/описуємо 
+	(шукаємо, робимо запит) ТІЛЬКИ до  
+	одного (унікального) об'єкта з ID some-id
+*/
+
+#id-first{
+	color: burlywood;
+	background: aqua;
+}
+
 /* КОМБІНАЦІЇ СЕЛЕКТОРІВ */
 
 /* Усі DIV але лише з класом text 
 	НІЯКИХ ПРОБІЛІВ МІЖ СЕЛЕКТОРАМИ!
 */
-div.sm-text{
+div.text {
 	color: rgb(0, 254, 68);
 }
 
-/* КОМБІНАЦІЇ СЕЛЕКТОРІВ */
+
 /* Усі теги але лише з 
-	класами page__text та text ОДНОЧАСНО 
+	класами .wrapper-body та .section-third ОДНОЧАСНО 
 	НІЯКИХ ПРОБІЛІВ МІЖ СЕЛЕКТОРАМИ!
 */
-.footer__fact.title{
-	color: rgb(76, 254, 0);
-	
+.wrapper-body.section-third{
+	color: chocolate;
+	background: yellow;
 }
+
+
+
 /* КАСКАДНІСТЬ (ВКЛАДЕНІСТЬ) СЕЛЕКТОРІВ */
 /* ОБОВ'ЯЗКОВО ПРОБІЛ МІЖ ЕЛЕМЕНТАМИ */
 
 /* Усі теги A але тільки в середені об'єктів з класом lesson
 	рівень вкладеності значення немає
  */
-.footer__fact span{
-	color: rgb(0, 17, 254);
-	font-size: 30px;
+.wrapper-body__section-first span{
+color: black;
+background: white;
+}
 
+
+/* Усі об'єкти в середені 
+об'єктів з класом text */
+.wrapper-body__section-first *{
+	background: black;
+	color: beige;
 }
-/* Усі теги P першого рівня (безпосередні) 
-	в середені об'єктів з класом text 
-*/
-.footer__item > li{
-	color: bisque;
+
+[class*="__container"]{
+	background-color: rgb(136, 136, 255);
 }
-/* Селектори атрибутів */
-[class*="__container"] {
-	color: rgb(8, 8, 184);
-	font-size: 17px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+.section-third>p{
+	color: chartreuse;
+	background: cadetblue;
+}
+.wrapper-body__section-fifth>h2+p{color: black;
+background: saddlebrown;}
+.main {
+}
+.main__container {
+}
+.main__wrapper {
+}
+.wrapper-body {
+}
+.wrapper-body__section-first {
+}
+.section-first__title {
+}
+.section-first__img {
+}
+.img {
+}
+.wrapper-body__section-second {
+}
+.section-second__title {
+}
+.wrapper-body__section-third {
+}
+.section-third__title {
+}
+.section-third__img {
+}
+.wrapper-body__section-fourth {
+}
+.section-fourth__title {
+}
+.wrapper-body__section-fifth {
+}
+.section-fifth__title {
+}
+.section-fifth__img {
+}
+.wrapper-body__section-sixth {
+}
+.section-sixth__title {
+}
+.section-sixth__img {
+}
+.wrapper-body__section {
+}
+.section-seventh__title {
+}
+.section-seventh__img {
+}
+.wrapper-body__section-eighth {
+}
+.section-eighth__title {
+}
+.section-eighth__img {
+}
+.wrapper-body__section-ninth {
+}
+.section-ninth__title {
+}
+.section-ninth__img {
+}
+.wrapper-body__section-tenth {
+}
+.section-tenth__title {
+}
+.section-tenth__img {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__wrapper {
 }

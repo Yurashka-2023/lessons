@@ -1,0 +1,307 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	color: #7d7d7d;
+	font-size: 18px;
+}
+
+.header {
+	margin-bottom: 50px;
+	border-bottom: 1px solid #757575;
+}
+
+.header__container,
+.main__container,
+.footer__container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1248px;
+}
+
+.main {
+	padding-bottom: 100px;
+}
+
+.menu__body,
+.menu li {
+	display: inline-block;
+}
+
+.menu__body {
+	padding-top: 15px;
+}
+
+.menu__img {
+	vertical-align: middle;
+}
+
+.menu__list {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu__list li {
+	padding-left: 50px;
+	text-decoration: underline;
+	color: rgb(255, 88, 88);
+}
+
+.section__jewellery,
+.section__project,
+.section__licencing {
+	padding: 0 35px;
+	margin-bottom: 100px;
+}
+
+.jewellery__box,
+.jewellery__img-box {
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+.jewellery__box {
+	max-width: 503px;
+	padding: 70px 0;
+	margin-right: 75px;
+	font-weight: 700;
+}
+
+.sub-jewellery__title,
+.jewellery__title,
+.jewellery__text p {
+	font-family: "Cormorant Infant", sans-serif;
+	line-height: 1;
+}
+
+.jewellery__title {
+	font-size: 64px;
+	margin-bottom: 30px;
+	color: black;
+
+}
+
+.sub-jewellery__title {
+	color: #D58417;
+	font-size: 20px;
+	margin-bottom: 27px;
+}
+
+.title {}
+
+.jewellery__text p {
+	color: #606060;
+	font-size: 30px;
+	line-height: 1.4;
+}
+
+.jewellery__img-box {
+	vertical-align: top;
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+
+.jewellery__img {
+	display: inline-block;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid #502203;
+	border-radius: 235px;
+}
+
+.img__first {
+	margin-right: 30px;
+	width: 177px;
+	height: 336px;
+}
+
+.img__second {
+	width: 307px;
+	height: 500px;
+}
+
+.img__first img {
+	margin-left: -10px;
+	padding-top: 14px;
+}
+
+.img__second img {
+	margin-left: -11px;
+	padding-top: 19px;
+}
+
+.border {
+	border-left: 6px solid #8A33FD;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50px;
+	height: 28px;
+	margin-left: -10px;
+}
+
+.clothes__title,
+.sub-clothes__title {
+	font-family: "Core Sans C", sans-serif;
+	font-weight: 600;
+}
+
+.clothes__title {
+	color: #3C4242;
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.sub-clothes__title {
+	margin-bottom: 25px;
+}
+
+.clothes__block p,
+.sub-clothes__title,
+.button {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #807D7E;
+	letter-spacing: 0.40px;
+}
+
+.clothes__block p {
+	font-family: "Causten", sans-serif;
+	margin-bottom: 20px;
+}
+
+.button {
+	font-weight: 600;
+}
+
+.section__project,
+.clothes__box {
+	text-align: justify;
+}
+
+.project__title {
+	color: #37393F;
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 35px;
+}
+
+.project__block p {
+	line-height: 1.46;
+	margin-bottom: 35px;
+}
+
+.project__list li {
+	font-weight: 500;
+	line-height: 1.46;
+}
+
+.project__list-ul li,
+.project__list-ol li {
+	margin-bottom: 35px;
+}
+
+.project__list-ul li {
+	padding-left: 26px;
+}
+
+.project__list-ol li {
+	padding-left: 17px;
+
+}
+
+.licencing__top {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.licencing__dot {
+	width: 12px;
+	height: 12px;
+	background: #40DDB6;
+	display: inline-block;
+}
+
+.sub-licencing {
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.licencing__titlte {
+	font-size: 60px;
+}
+
+.licencing__paragraph {
+	margin-bottom: 16px;
+	font-size: 40px;
+}
+
+.licencing__block p {
+	line-height: 1.46;
+	margin-bottom: 35px;
+}
+
+.licencing__block-bottom span {
+	color: #40DDB6;
+	font-weight: 500;
+}
+
+.licencing__block-body p {
+	margin-bottom: 24px;
+}
+
+.licencing__sub-paragraph {
+	font-size: 30px;
+}
+
+.sub-paragraph__body {
+	margin-bottom: 17px;
+}
+
+.licenting__comments {
+	color: #40DDB6;
+	line-height: 1.46;
+	margin-bottom: 24px;
+}
+
+.licencing__titlte,
+.licencing__paragraph,
+.licencing__sub-paragraph {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	line-height: 1.21;
+}
+
+.licencing__sub-paragraph span {
+	color: #40DDB6;
+	font-weight: 400;
+
+}
+
+.licencing__body {
+	margin-bottom: 100px;
+}
+
+.footer__block {
+	text-align: center;
+	padding: 10px 0 35px 35px;
+	font-family: "Cormorant Infant", sans-serif;
+	font-size: 60px;
+	color: #e2e2e2;
+	border-top: 2px solid rgb(255, 255, 255);
+	border-bottom: 2px solid rgb(255, 255, 255);
+	border-radius: 90px;
+}
+
+.footer {
+	padding-top: 20px;
+	background: black;
+}

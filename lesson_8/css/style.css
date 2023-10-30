@@ -1,0 +1,164 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+
+.header,
+.footer__body {
+	font-family: "Causten", sans-serif;
+	color: #931414;
+	font-size: 58px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #757575;
+	height: 20vh;
+	padding-top: 30px;
+	background: linear-gradient(90deg, #002abf 0%, rgba(78, 0, 0, 1) 50%);
+}
+
+.header__title {
+	/* text-align: center;*/
+	/* v: middle; */
+}
+
+.header__title {
+	text-align: center;
+	background-color: #002abf;
+	/* background-image: linear-gradient(90deg, #E3535D, #2AA5A0); */
+	background-image: linear-gradient(90deg, rgb(212, 2, 2) 0%, #000d3b94 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1247px;
+}
+
+.container .title {
+	text-align: center;
+}
+
+.block__title {
+	background-image: linear-gradient(90deg, #8ac28e89 0%, #931414 100%);
+}
+
+.block__1 {
+	/* background-color: transparent; */
+	background-color: #ff2f2f;
+}
+
+.block__2 {
+	background-image: url('../img/cup.jpg');
+	text-align: justify;
+	background-repeat: no-repeat;
+	/* background-repeat: repeat-y;
+background-repeat: repeat-x; */
+	/* background-position: 100% 100%;
+background-position: top;
+background-position: top right;
+background-position: top left;
+background-position: bottom right;
+background-position: bottom left;
+background-position: bottom center;
+background-position: right bottom;
+background-position: right top;
+background-position: right center;
+background-position: center top;
+background-position: center bottom; */
+	/* background-position: center right; */
+	/* background-position: center left; */
+	background-position: 50% 50%;
+	background-position: end;
+	/* background-position: center left;
+background-position: center top;
+background-position: center right;
+background-position: center bottom; */
+	/* text-align: left; 
+	text-align: right; 
+	text-align: center; */
+}
+
+.block__3 {
+	background-image: url('../img/cup.jpg');
+	background-position: center;
+	color: rgb(0, 0, 0);
+	/* font-size: 20px; */
+	color: rgb(255, 1, 1);
+	font-weight: 800;
+}
+
+.block__5 {
+	background-image: url('../img/cup.jpg');
+	background-repeat: no-repeat;
+	color: rgb(141, 213, 213);
+	/* background-position: center; */
+	font-weight: 900;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.block__6 {
+	background-image: url("../img/cup.jpg");
+	padding: 100px;
+}
+
+.block__7 {
+	background-image: url("../img/cup.jpg");
+	/* padding: 100px; */
+	/* height: 100vh; */
+	color: rgb(172, 147, 0);
+	/* background-repeat: no-repeat; */
+	font-weight: 700;
+	/* background-position: center center; */
+	/* background-position: left top === 0 0; */
+	/* background-attachment: fixed; - фіксується до екрану і скролиться при скролі*/
+	/* background-attachment: scroll; - скролиться*/
+}
+
+.block__8 {
+	background-image: url("../img/cup.jpg");
+	background-image: url("../img/cup.jpg");
+	color: #931414;
+	font-weight: 900;
+	font-family: cursive;
+	/* background-position: center; */
+	background-position: 50%;
+	/* Якщо задано значення лише для горизонталі чи лише по вертикалі то друге значення за замочуванням буде center */
+}
+
+.block__9 {
+	background-image: url("../img/cup.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: #001efe;
+}
+
+.block-text {
+	background-image: url("../img/cup.jpg");
+	/* background-size: contain; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #01ac0a;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+.block__home{
+	color: #1a0e0ee9;
+	font-size: 40px;
+	line-height: 1.2;
+	padding: 12px 20px;
+	background-color: #faf6dae4;
+	border: 1px solid #a27171;
+	font-family: "Marck Script", sans-serif;
+	border-radius:40px
+}
+.btm__home{
+	text-align: center;
+margin-bottom: 20px;
+}

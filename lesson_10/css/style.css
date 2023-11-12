@@ -1,0 +1,110 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	background: url("../img/hero-img_copy.jpg") 0 0 / cover no-repeat fixed;
+	/* color: white; */
+	font-family: "Cormorant Infant", sans-serif;
+	font-size: 25px;
+
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1250px;
+	background-color: rgba(22, 24, 23, 0.534);
+	color: white;
+}
+
+header {
+	margin-bottom: 20px
+}
+
+/* Header стилі */
+.header__block {
+	box-shadow: inset 0px 1px 6px, 0px 1px 6px;
+	background-color: rgba(22, 24, 23, 0.534);
+}
+
+.header {
+	background-color: rgba(22, 24, 23, 0.534);
+	box-shadow: inset 0px 1px 6px, 0px 1px 6px;
+	*/
+}
+
+.header:hover {
+	background-color: rgba(22, 24, 23, 0.534);
+	box-shadow: inset 0px 1px 6px, 0px 1px 6px;
+}
+
+.header__block .header__title {
+	padding: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.header__title:hover {
+	box-shadow: inset 0px 1px 6px, 0px 1px 6px;
+	background-color: rgba(22, 24, 23, 0.534);
+	opacity: .7;
+	transform: scale(1.7);
+	transition: all .4s;
+}
+
+
+/* Main стилі */
+.main {
+	margin-bottom: 40px;
+}
+
+.main__title {
+	margin-bottom: 20px;
+	color: rgb(255, 126, 126);
+	text-align: center;
+	padding: 20px;
+	box-shadow: black 0px 1px 6px, 0px 1px 6px;
+	background-color: rgb(0, 255, 217);
+	border-radius: 30px;
+}
+
+.main__block {
+	text-align: center;
+
+}
+
+.main__subtitle {
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.main__block .main__img:not(:last-child) {
+	margin-right: 50px;
+}
+
+.main__block:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.main__block .main__img {
+	max-width: 300px;
+	height: 200px;
+	text-align: center;
+}
+
+.main__block .main__svg:not(:last-child) {
+	margin-right: 50px;
+}
+
+/* Footer стилі */
+
+.footer__block {
+	text-align: center;
+	padding: 25px;
+	box-shadow: inset 0px 1px 6px, 0px 1px 6px;
+}

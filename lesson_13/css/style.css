@@ -74,6 +74,7 @@ color: red;
 .main__title {
 	font-size: 45px;
 	margin-bottom: 45px;
+	background-color: #00000082;
 }
 
 
@@ -211,7 +212,8 @@ transform: translate3d(20px, 20px, -20px);
 }
 .practice-section{
 	position: absolute;
-	top: 44%;
+	top: 45%;
+	width: 100%;
 	left: 8%;
 }
 .practice-section__body{

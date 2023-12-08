@@ -141,7 +141,7 @@ body {
 .sidebar-menu {
 	position: absolute;
 	top: 0;
-	white-space: wrapp;
+	white-space: wrap;
 	left: 100%;
 	min-width: 150px;
 	color: #fff;
@@ -236,10 +236,9 @@ body {
 .social-list__body {
 	position: absolute;
 	bottom: 22px;
-	font-size: 0;
 	left: 22px;
 	width: 341px;
-	height: 114px;
+	height: 21%;
 	padding: 24px 47px;
 	background-color: rgba(224, 224, 224, 0.84);
 }

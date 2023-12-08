@@ -141,7 +141,7 @@ body {
 .sidebar-menu {
 	position: absolute;
 	top: 0;
-	white-space: wrap;
+	white-space: nowrap;
 	left: 100%;
 	min-width: 150px;
 	color: #fff;
